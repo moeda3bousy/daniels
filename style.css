@@ -1,0 +1,75 @@
+.a {
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+}
+
+.b:hover {
+  background-color: white;
+  color: black;
+}
+
+.j {
+  border: .1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.j:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-color: transparent;
+}
+
+.r:hover {
+  background-color: black;
+  color: white;
+}
+
+.cardoo img {
+  transition: 1.5s all;
+}
+
+.cardoo {
+  overflow: hidden;
+}
+
+.cardoo:hover img {
+  transform: scale(1.3);
+}
+
+.z {
+  z-index: 99999999999999999999999999;
+}
+
+.m {
+  opacity: 0;
+  transition: 1s all;
+}
+
+.cardooo:hover .m {
+  opacity: 1;
+}
+
+
+.hh::after {
+  content: " Larry Daniels";
+  animation: 6s identifier infinite alternate 2s;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+@keyframes identifier {
+  0% {
+    content: " Larry Daniels";
+  }
+
+  50% {
+    content: " Developer";
+
+  }
+
+  100% {
+    content: " Designer";
+
+  }
+}
